@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Batman</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: 'Space Grotesk', sans-serif;
+			background-color: #0D0E09;
+			color: #FFFFFF;
+		}
+
+		h1 {
+			font-family: 'Rajdhani', sans-serif;
+			color: #FFFF00;
+		}
+
+		h2 {
+			color: #F8F184;
+		}
+
+		#intro {
+			color: #C4C4C4;
+		}
+
+		#menu {
+			background-color: #19587D;
+			padding: 10px;
+		}
+
+		.button {
+			background-color: #B11313;
+			color: #FFFFFF;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			margin: 5px;
+			cursor: pointer;
+		}
+
+		.button:hover {
+			background-color: #F8F184;
+			color: #19587D;
+		}
+
+		#footer {
+			background-color: #000000;
+			color: #FFFFFF;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Batman</h1>
+	</header>
+	<nav id="menu">
+		<button class="button">Home</button>
+		<button class="button">VOIR LE HEROS</button>
+		<button class="button">LES ADVERSAIRES</button>
+		<button class="button">CONFIRMER</button>
+		<button class="button">Des films</button>
+		<button class="button">Des comics</button>
+		<button class="button">De tout</button>
+	</nav>
+	<section id="intro">
+		<h2>Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les criminels de Gotham City. Il est vengeur. Il est la nuit. Il est Batman.</h2>
+	</section>
+	<section id="batman-au-cinema">
+		<h2>BATMAN AU CINÉMA</h2>
+		<p>Le personnage de Batman est un super héros de l’univers de DC Comics. Il a été créé par le dessinateur Bob Kane et le scénariste Bill Finger et apparaît pour la première fois dans le comic book Detective Comics en 1939. Batman se différencie de Superman, alors héros majeur de DC, car il n’a aucun pouvoir. Il sera porté au cinema pour la première fois en 1943 par Lewis Wilson et bénéficiera de nombreux reboot, donnant l’occasion à de multiples acteurs d’interpréter l’homme chauve-souris. Voici les trois derniers :</p>
+		<ul>
+			<li>Robert Pattinson (2022)</li>
+			<li>Christian Bale (2006 - 2008 - 2012)</li>
+			<li>Ben Affleck (2016 - 2017/2020 - 2023)</li>
+		</ul>
+	</section>
+	<section id="nemesis">
+		<h2>NÉMÉSIS</h2>
+		<p>Batman souhaite éradiquer la criminalité de Gotham
